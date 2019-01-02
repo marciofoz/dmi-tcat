@@ -1,6 +1,10 @@
 # dmi-tcat
 
-initial version for testing purposes.
+Initial container version for testing purposes.
+
+```sh
+docker run -d --restart="always" --name container_name gasparzinho/dmi_tcat
+```
 
 Container parameters:
 
