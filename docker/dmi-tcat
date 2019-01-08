@@ -1,0 +1,10 @@
+/var/www/dmi-tcat/logs/*.log  
+{ 
+ daily
+ rotate 8  
+ compress  
+ delaycompress  
+ missingok  
+ ifempty  
+ create 644 nginx root
+}
