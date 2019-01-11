@@ -4,6 +4,14 @@ Initial container version for testing purposes.
 
 Please check https://github.com/digitalmethodsinitiative/dmi-tcat/wiki for further information.
 
+
+Create:
+```sh
+docker build --no-cache -f Dockerfile -t dmi_tcat .
+```
+
+
+Run:
 ```sh
 docker run -d --restart="always" --name container_name gasparzinho/dmi_tcat
 ```
