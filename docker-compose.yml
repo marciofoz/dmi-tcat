@@ -1,0 +1,22 @@
+version: '3'
+services:
+  tcat:
+    image: gasparzinho/dmi_tcat
+    environment:
+      ADMIN_USER: xx
+      ADMIN_PASSWORD: xx
+      USER: xx
+      USER_PASSWORD: xx
+      SERVERNAME: xx
+      DB_HOST: xx
+      DB_DATABASE: xx
+      DB_USERNAME: xx
+      DB_PASSWORD: xx
+      USERTOKEN: xx
+      USERSECRET: xx
+      CONSUMERKEY: xx
+      CONSUMERSECRET: xx
+      ENABLE_URL_EXPANDER: 'true'
+      TZ: 'America/Sao_Paulo'
+    ports:
+      - 8000:443/tcp
